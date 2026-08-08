@@ -6,7 +6,7 @@ CalamityClientConfig: {
 		Graphics: 画面改动
 		UI: UI改动
 		MeterPositions: 属性条位置
-		MusicToggles: 音乐切换
+		AudioToggles: 音频切换
 	}
 
 	AbyssLayer3Alt: {
@@ -38,6 +38,15 @@ CalamityClientConfig: {
 			'''
 			为灾厄NPC，弹幕等物体开启残影渲染。
 			关闭以提升性能。
+			'''
+	}
+
+	BoCSpriteChange: {
+		Label: "[i:BrainOfConfusion] 移除可能引人不适的图像"
+		Tooltip:
+			'''
+			替换一些Boss贴图以移除可能引人不适，让人触发恐惧症的图像。
+			如果你对身体恐怖不舒服或拥有密集恐惧症时强烈推荐开启。
 			'''
 	}
 
@@ -98,15 +107,6 @@ CalamityClientConfig: {
 			'''
 			禁用原版反转重力时带来的屏幕翻转效果，以翻转玩家代之
 			如果屏幕翻转分散注意力或带来晕车感，请启用此选项
-			'''
-	}
-
-	EnableVanillaTextureEdits: {
-		Label: "[i:Paintbrush] 启用原版材质更改"
-		Tooltip:
-			'''
-			启用对原版Boss材质的细微修改，以改善攻击预警效果。
-			禁用此配置以适配材质包。
 			'''
 	}
 
@@ -187,6 +187,15 @@ CalamityClientConfig: {
 			'''
 	}
 
+	MisophoniaSupport: {
+		Label: "[i:Megaphone] 禁用可能触发的音频"
+		Tooltip:
+			'''
+			禁用或修改多个重复和可能令人痛苦的音效。
+			强烈推荐拥有恐音症的玩家开启。
+			'''
+	}
+
 	ParticleLimit: {
 		Label: "[i:FragmentStardust] 最大粒子数"
 		Tooltip:
@@ -205,15 +214,6 @@ CalamityClientConfig: {
 			降低或禁用某些视觉效果的亮度和/或炫目程度。
 			也会禁用所有屏幕震动效果。
 			强烈建议光敏人士使用此模式。
-			'''
-	}
-
-	BoCSpriteChange: {
-		Label: "[i:BrainOfConfusion] 移除可能引人不适的图像"
-		Tooltip:
-			'''
-			替换一些Boss贴图以移除可能引人不适，让人触发恐惧症的图像。
-			如果你对身体恐怖不舒服或拥有密集恐惧症时强烈推荐开启。
 			'''
 	}
 

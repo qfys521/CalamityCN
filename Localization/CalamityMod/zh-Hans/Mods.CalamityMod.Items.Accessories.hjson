@@ -226,9 +226,10 @@ AscendantInsignia: {
 	DisplayName: 进升证章
 	Tooltip:
 		'''
-		飞行时间增加{0}%，移动速度和跳跃速度提高{1}%，加速度提升为{2}倍
-		按下 [KEY] 键会给予你飞升之力，提供{3}秒的无限飞行时间
-		飞升有{4}秒冷却时间
+		提供{0}秒额外飞行时间
+		移动速度提高{1}%，跳跃速度提高{2}%，加速度提升为{3}倍
+		按下 [KEY] 键会完全恢复飞行时间，且在{4}秒内飞行时间不会降低
+		此能力有{5}秒冷却时间
 		'''
 }
 
@@ -249,15 +250,6 @@ AsgardsValor: {
 		{$Common.KnockbackImmunity}
 		获得撞击冲刺能力
 		此冲刺可以在不受伤害的情况下撞击穿过敌怪
-		'''
-}
-
-FadedIdolatry: {
-	DisplayName: 圣魂归寂
-	Tooltip:
-		'''
-		召唤[i:CalamityMod/YharonsKindleStaff]炽焰天龙所需的仆从栏位减1
-		[c/ffe100:“待到万物皆归尘土，你创造的世界还剩下何物？”]
 		'''
 }
 
@@ -298,20 +290,6 @@ BlackGlassBand: {
 		此效果具有5秒冷却，但如果闪光杀死了敌怪，将会减半冷却时间
 		如果关闭饰品可见性，视觉效果和音效会减弱
 		[c/655DC5:“一只拥有无限潜力的闪亮手镯”]
-		'''
-}
-
-BlazingCore: {
-	DisplayName: 渎火核心
-	Tooltip:
-		'''
-		{$Common.KnockbackImmunity}
-		亵渎天神的炽热之心
-		按下 [KEY] 键会将你包裹在发光的亵渎水晶中，并激活一次格挡
-		包裹后短时间内受击会使水晶破碎
-		水晶破碎时，神圣之星会向外螺旋扩散且受到的伤害会被抵消
-		破碎后，此伤害减免效果将进入冷却
-		处于冷却期间时触发格挡会召唤额外的治愈之星，但受击伤害不会降低
 		'''
 }
 
@@ -441,7 +419,7 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		增加5%移动速度
-		疾病系和水系减益的伤害增加25%
+		疾病系和水系减益的伤害增加50%
 		所有攻击都将造成[cbuff:CalamityMod/Irradiated]减益，降低硫磺海水的威胁性
 		受击时爆炸成辐射毒云
 		'''
@@ -471,6 +449,15 @@ CrownJewel: {
 		'''
 		+{0}HP/s生命再生
 		受到持续性伤害减益的伤害降低{1}HP/s
+		'''
+}
+
+CrushingEgo: {
+	DisplayName: 噬宇之傲
+	Tooltip:
+		'''
+		所有伤害乘1.3，代价是所受伤害增加20%
+		[c/ff00ff:“戴上傲慢的假面，孤身一人起舞。直至铃声消逝，唯余你伫立此处。”]
 		'''
 }
 
@@ -593,12 +580,17 @@ DiamondOfTheDeep: {
 		'''
 }
 
-CrushingEgo: {
-	DisplayName: 噬宇之傲
+DivineProvidence: {
+	DisplayName: 圣洁天神
 	Tooltip:
 		'''
-		所有伤害乘1.3，代价是所受伤害增加20%
-		[c/ff00ff:“戴上傲慢的假面，孤身一人起舞。直至铃声消逝，唯余你伫立此处。”]
+		{$Common.KnockbackImmunity}
+		亵渎天神的炽热之心
+		按下 [KEY] 键会将你包裹在发光的亵渎水晶中，并激活一次格挡
+		包裹后短时间内受击会使水晶破碎
+		水晶破碎时，神圣之星会向外螺旋扩散且受到的伤害会被抵消
+		破碎后，此伤害减免效果将进入冷却
+		处于冷却期间时触发格挡会召唤额外的治愈之星，但受击伤害不会降低
 		'''
 }
 
@@ -663,20 +655,6 @@ EclipseMirror: {
 	FlavorTooltip: “它所映出的只有无边黑暗”
 }
 
-FragmentsOfAnotherWorld: {
-	DisplayName: 异世裂片
-	Tooltip:
-		'''
-		免疫[cbuffplr:CalamityMod/WhisperingDeath]减益
-		增加{0}%近战攻速
-		特殊远程伤害乘{1}
-		魔力消耗降低{2}%
-		增加{3}个最大哨兵栏位
-		增加{4}%盗贼攻速
-		[c/ff0000:“不要向阴影诉说你的欲望，他们会听着的。”]
-		'''
-}
-
 ElectriciansGlove: {
 	DisplayName: 电击手套
 	Tooltip:
@@ -701,7 +679,11 @@ ElementalGauntlet: {
 
 ElementalinaBottle: {
 	DisplayName: 元素瓶
-	Tooltip: 召唤一个沙暴元素为你而战
+	Tooltip:
+		'''
+		召唤一个沙暴元素为你而战
+		如果关闭饰品可见性，元素会变得透明
+		'''
 }
 
 ElysianAegis: {
@@ -758,7 +740,20 @@ EvasionScarf: {
 
 EyeoftheStorm: {
 	DisplayName: 风暴之眼
-	Tooltip: 召唤雨云元素为你而战
+	Tooltip:
+		'''
+		召唤雨云元素为你而战
+		如果关闭饰品可见性，元素会变得透明
+		'''
+}
+
+FadedIdolatry: {
+	DisplayName: 圣魂归寂
+	Tooltip:
+		'''
+		召唤[i:CalamityMod/YharonsKindleStaff]炽焰天龙所需的仆从栏位减1
+		[c/ffe100:“待到万物皆归尘土，你创造的世界还剩下何物？”]
+		'''
 }
 
 FeatherCrown: {
@@ -835,8 +830,22 @@ FleshTotem: {
 		在你头顶召唤一个雕像，使用魔力后会将魔力储存，至多600魔力
 		雕像偶尔会释放脉冲，回复25魔力
 		储存的魔力越多，脉冲出现的越频繁
-		受击时，雕像会将所有储存的魔力以复仇灵魂的形式释放，追踪敌怪
+		受击时，雕像会将储存的一半魔力以复仇灵魂的形式释放，追踪敌怪
 		如果关闭饰品可见性，雕像会变得透明且安静
+		'''
+}
+
+FragmentsOfAnotherWorld: {
+	DisplayName: 异世裂片
+	Tooltip:
+		'''
+		免疫[cbuffplr:CalamityMod/WhisperingDeath]减益
+		增加{0}%近战攻速
+		特殊远程伤害乘{1}
+		魔力消耗降低{2}%
+		增加{3}个最大哨兵栏位
+		增加{4}%盗贼攻速
+		[c/ff0000:“不要向阴影诉说你的欲望，他们会听着的。”]
 		'''
 }
 
@@ -860,6 +869,24 @@ FrostFlare: {
 		'''
 }
 
+FrozenCube: {
+	DisplayName: 冰立方
+	Tooltip:
+		'''
+		一颗内部包含某样东西的冰块
+		召唤一只坐在你头顶的冰川象保护你
+		冰川象会发射造成[cbuff:CalamityMod/WindChilled]减益的冷空气或用头撞敌人攻击
+		冰川象的头撞攻击只会瞄准受到[cbuff:CalamityMod/WindChilled]减益的敌怪
+		降低你33%防御，但会用降低的防御来增幅冰川象的强度以及你的冷系减益伤害
+		[DAMAGELINE]
+		[c/7497ED:“我想知道的是，猛犸象在哪儿？”]
+		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
+	EquippedDebuff: 当前冷系伤害加成：+{0}%
+	EquippedElumphant: 当前冰川象强度：{0}%
+	Unequipped: 装备此饰品以查看其统计信息
+}
+
 FungalClump: {
 	DisplayName: 真菌块
 	Tooltip:
@@ -874,7 +901,7 @@ FungalSymbiote: {
 	Tooltip:
 		'''
 		你走过的草地会长出蘑菇
-		食用蘑菇会使你获得[cbuffplr:CalamityMod/Mushy]增益，增加5点防御和1HP/s生命再生
+		食用蘑菇会使你获得[cbuffplr:CalamityMod/Mushy]增益，增加3点防御和1HP/s生命再生
 		拥有[cbuffplr:CalamityMod/Mushy]增益时增加10%伤害
 		'''
 	SalesPitch: "{$Common.SalesmanShrinePitch}"
@@ -965,7 +992,7 @@ HallowedRune: {
 
 HarpyRing: {
 	DisplayName: 女妖指环
-	Tooltip: 增加10%移动速度和20%飞行时间
+	Tooltip: 增加20%移动速度和飞行时间
 }
 
 HeartofDarkness: {
@@ -983,6 +1010,7 @@ HeartoftheElements: {
 	Tooltip:
 		'''
 		召唤所有的元素之灵保护你
+		如果关闭饰品可见性，元素之灵会变得透明
 		“世界之心”
 		'''
 }
@@ -1207,10 +1235,10 @@ NebulousCore: {
 	DisplayName: 星云之核
 	Tooltip:
 		'''
-		增加10%伤害
+		增加{0}%伤害
 		召唤漂浮的小星云保护你
-		受到致死伤害时会复活你到100点生命值
-		此效果有90秒冷却时间
+		受到致死伤害时会复活你到{1}点生命值
+		此效果有{2}秒冷却时间
 		'''
 }
 
@@ -1245,6 +1273,16 @@ Nucleogenesis: {
 		仆从会造成多种减益
 		仆从攻击会生成伤害火花
 		不与下位合成材料叠加
+		'''
+}
+
+OasisElementalinaBottle: {
+	DisplayName: 绿洲元素瓶
+	Tooltip:
+		'''
+		召唤一个绿洲元素来协助你
+		当你受伤时，她会发射回复你10点生命值的治疗球
+		如果关闭饰品可见性，元素会变得透明
 		'''
 }
 
@@ -1320,6 +1358,7 @@ PearlofEnthrallment: {
 		'''
 		召唤水之元素为你而战
 		水之元素会待在你的上方并向附近敌人发射水矛、冰雾和音符
+		如果关闭饰品可见性，元素会变得透明
 		'''
 }
 
@@ -1481,15 +1520,6 @@ RampartofDeities: {
 	ToggleEffect: ，增加移动速度
 }
 
-OasisElementalinaBottle: {
-	DisplayName: 绿洲元素瓶
-	Tooltip:
-		'''
-		召唤一个绿洲元素来协助你
-		当你受伤时，她会发射回复你10点生命值的治疗球
-		'''
-}
-
 ReaperToothNecklace: {
 	DisplayName: 猎魂鲨齿项链
 	Tooltip:
@@ -1519,7 +1549,11 @@ RogueEmblem: {
 
 RoseStone: {
 	DisplayName: 玫瑰石
-	Tooltip: 召唤硫磺火元素为你而战
+	Tooltip:
+		'''
+		召唤硫磺火元素为你而战
+		如果关闭饰品可见性，元素会变得透明
+		'''
 }
 
 RottenBrain: {
@@ -1996,6 +2030,21 @@ TheFirstShadowflame: {
 		'''
 }
 
+ThePact: {
+	DisplayName: 契约
+	Tooltip:
+		'''
+		最大生命值乘{0}
+		受击时{1}%概率暴击你
+		这些暴击会造成{2}倍伤害并对你施加[cbuffplr:CalamityMod/FulfilledContract]增益
+		'''
+	SalesPitch:
+		'''
+		“金钱是个反复无常的东西，哥们儿。一不留神，转眼间你就在垃圾堆里……过上了‘好日子’”
+		“拿命本身去赌，那才是真谛所在。记得遗嘱上写我的名，成不？”
+		'''
+}
+
 ThePointer: {
 	DisplayName: 指向器
 	Tooltip:
@@ -2158,7 +2207,7 @@ WarbanneroftheRighteous: {
 	Tooltip:
 		'''
 		基于你离敌怪的距离提供乘算伤害加成
-		最近提供15%伤害，最远降低15%伤害
+		最高伤害加成为乘1.15，最低伤害加成为乘0.85
 		迸发炽烈的光环，灼烧并击退周围的敌怪，造成[cbuff:CalamityMod/HolyFlames]减益
 		敌怪离你越近，接近时间越长，受到的伤害越高
 		如果关闭饰品可见性，饰品效果会变得透明且安静
@@ -2221,6 +2270,11 @@ GhostBracelet: {
 	Tooltip: 哇……它用空洞的眼睛满是好奇地看着我
 }
 
+GlimmeringRibbon: {
+	DisplayName: 闪烁丝带
+	Tooltip: “我们生来无色。是我们遇到的人们给我们带来了颜色。”
+}
+
 HapuFruit: {
 	DisplayName: 心跳果
 	Tooltip: “一个可以有效缓解心理压力的果子（有些时候会附加出乎意料的效果）”
@@ -2252,12 +2306,7 @@ Popo: {
 
 SharkyPlush: {
 	DisplayName: 鲨鲨玩偶
-	Tooltip: "[c/696969:“小心无形之力……”]"
-}
-
-GlimmeringRibbon: {
-	DisplayName: 闪烁丝带
-	Tooltip: “我们生来无色。是我们遇到的人们给我们带来了颜色。”
+	Tooltip: "[c/696969:“像恋人和英雄，也像每个人躁动的部分……”]"
 }
 
 TheComb: {
@@ -2296,22 +2345,4 @@ XyksBlessingOrange: {
 		'''
 		ArmorDisabled: "[c/D44748:禁用]"
 		ArmorEnabled: "[c/58D447:启用]"
-}
-
-FrozenCube: {
-	DisplayName: 冰立方
-	Tooltip:
-		'''
-		一颗内部包含某样东西的冰块
-		召唤一只坐在你头顶的冰川象保护你
-		冰川象会发射造成[cbuff:CalamityMod/WindChilled]减益的冷空气或用头撞敌人攻击
-		冰川象的头撞攻击只会瞄准受到[cbuff:CalamityMod/WindChilled]减益的敌怪
-		降低你33%防御，但会用降低的防御来增幅冰川象的强度以及你的冷系减益伤害
-		[DAMAGELINE]
-		[c/7497ED:“我想知道的是，猛犸象在哪儿？”]
-		'''
-	SalesPitch: "{$Common.SalesmanShrinePitch}"
-	EquippedDebuff: 当前冷系伤害加成：+{0}%
-	EquippedElumphant: 当前冰川象强度：+{0}%
-	Unequipped: 装备此饰品以查看其统计信息
 }

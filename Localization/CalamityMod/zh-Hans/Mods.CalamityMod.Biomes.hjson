@@ -81,11 +81,6 @@ AstralCaveDesert: {
 	TownNPCDialogueName: 星幻沙漠洞穴
 }
 
-FloralParadiseBiome: {
-	DisplayName: 花之乐园
-	TownNPCDialogueName: 花之乐园
-}
-
 BasaltGullyBiome: {
 	DisplayName: 玄武岩海沟
 	TownNPCDialogueName: 玄武岩海沟

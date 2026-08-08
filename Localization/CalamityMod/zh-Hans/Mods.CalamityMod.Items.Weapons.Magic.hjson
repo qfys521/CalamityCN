@@ -23,11 +23,6 @@ AethersWhisper: {
 	Tooltip: 发射虚空光束，光束在移动过程中伤害会逐渐增加，击中物块时会分裂
 }
 
-AlulaAustralis: {
-	DisplayName: 南极光羽
-	Tooltip: 发射优美的极光，路径上会降下星辰并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
-}
-
 AlphaDraconis: {
 	DisplayName: 天龙座阿尔法
 	Tooltip:
@@ -39,6 +34,11 @@ AlphaDraconis: {
 		天龙座会造成[cbuff:CalamityMod/Voidfrost]减益
 		“对疯狂的一种模仿”
 		'''
+}
+
+AlulaAustralis: {
+	DisplayName: 南极光羽
+	Tooltip: 发射优美的极光，路径上会降下星辰并散播[cbuff:CalamityMod/AstralInfectionDebuff]减益
 }
 
 AnahitasArpeggio: {
@@ -493,7 +493,7 @@ LashesofChaos: {
 	DisplayName: 混乱火鞭
 	Tooltip:
 		'''
-		交替发射爆炸狱火球和穿透深渊亡魂
+		交替发射狱火爆炸和穿透硫火飞镖
 		“静看着整个世界的燃烧……”
 		'''
 }
@@ -919,6 +919,11 @@ TheSwarmer: {
 TheWand: {
 	DisplayName: 神杖·暴风灼炎
 	Tooltip: 一杖御万杖
+	SalesPitch:
+		'''
+		“嘿，伙计。我知道我们之前有分歧，但你一直对我挺够意思的。这是专门给你的特惠价！”
+		“显然这跟棍子来自巨龙天巢，而且我听说即便是那儿最细的树枝都蕴含着深不可测的力量！这简直就是白捡！”
+		'''
 }
 
 ThornBlossom: {

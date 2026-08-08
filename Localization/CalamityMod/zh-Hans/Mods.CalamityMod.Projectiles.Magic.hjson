@@ -43,7 +43,9 @@ BloodRay.DisplayName: 猩红射线
 BlueBubble.DisplayName: 蓝泡泡
 BlushieStaffProj.DisplayName: 蓝炼魂法杖
 BrimroseBeam.DisplayName: 硫火玫瑰光束
-BrimstoneHellfireballFriendly.DisplayName: 狱炎球
+CalamitousDartFriendly.DisplayName: 友方灾厄飞镖
+CalamitousExplosionFriendly.DisplayName: 友方灾厄爆炸
+CalamitousFireballFriendly.DisplayName: 友方灾厄火球
 CauldronProj.DisplayName: 熔岩炸弹
 CauldronProjSmall.DisplayName: 熔岩溅滴
 ChronoIcicleLarge.DisplayName: 时之冰锥
@@ -77,6 +79,8 @@ ExoVortex2.DisplayName: 归元旋涡
 FatesRevealFlame.DisplayName: 幽灵魂火
 FireImplosion.DisplayName: 烈焰漩涡
 FlareBoltProjectile.DisplayName: 火矢
+FleshTotemMinion.DisplayName: 血肉图腾仆从
+FleshTotemSoul.DisplayName: 血肉图腾灵魂
 ForbiddenAxeBlade.DisplayName: 禁忌斧刃
 ForbiddenSunburst.DisplayName: 禁忌阳炎爆
 ForbiddenSunProjectile.DisplayName: 禁忌之阳
@@ -96,7 +100,6 @@ HadalUrnLamprey.DisplayName: 七鳃鳗
 HadalUrnStarfish.DisplayName: 马里亚纳海星
 HadalUrnStarfishShard.DisplayName: 海星碎块
 HeliumFlashBlast.DisplayName: 氦闪
-HellfireExplosionFriendly.DisplayName: 狱火炎爆
 HellwingBat.DisplayName: 狱烬蝙蝠
 HolyFlame.DisplayName: 圣火
 HolyLaser.DisplayName: 圣光聚束
@@ -149,6 +152,7 @@ MelterNote2.DisplayName: 熔融之音
 MeteorStar.DisplayName: 流星
 MeteorStarExplosion.DisplayName: 流星爆破
 MiasmaGas.DisplayName: 瘴气
+MoonSigil.DisplayName: 月亮符文
 NanoPurgeLaser.DisplayName: 纳米光束
 NebulaCloud.DisplayName: 星云
 NebulaCloudCore.DisplayName: 星云核心
@@ -186,7 +190,6 @@ PrinceFlameSmall.DisplayName: 圣火
 RainbowComet.DisplayName: 彩虹彗星
 RainbowRocket.DisplayName: 彩虹火箭
 RancorArm.DisplayName: 怨戾之手
-RancorFog.DisplayName: 将临之雾
 RancorLargeCinder.DisplayName: 熔岩
 RancorLaserbeam.DisplayName: 怨戾激光
 RancorMagicCircle.DisplayName: 怨戾魔法阵
@@ -228,6 +231,7 @@ SoulPiercerBeam.DisplayName: 灵魂穿刺
 SoulPiercerBolt.DisplayName: 灵魂穿刺
 SparkInfernal.DisplayName: 烈焰火花
 SparklingLaser.DisplayName: 闪耀激光
+SpectralFeather.DisplayName: 幽灵羽毛
 SpiritCongregation.DisplayName: 魂灵怪物
 SpiritDust.DisplayName: 灵魂之尘
 Starblast.DisplayName: 星爆
@@ -288,7 +292,3 @@ WyvernFeatherPurple.DisplayName: 紫色星龙羽
 WyvernProjectile.DisplayName: 星龙
 YharimsCrystalBeam.DisplayName: 亚利姆水晶聚焦射线
 YharimsCrystalPrism.DisplayName: 爆菌水京
-FleshTotemMinion.DisplayName: 血肉图腾仆从
-FleshTotemSoul.DisplayName: 血肉图腾灵魂
-SpectralFeather.DisplayName: 幽灵羽毛
-MoonSigil.DisplayName: 月亮符文

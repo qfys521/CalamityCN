@@ -140,7 +140,7 @@ ShadowPotion: {
 
 SoaringPotion: {
 	DisplayName: 腾飞药水
-	Tooltip: 增加{0}%飞行时间和水平飞行速度
+	Tooltip: 增加{0}%飞行时间
 }
 
 SulphurskinPotion: {
@@ -164,7 +164,7 @@ TheConcoction: {
 	Tooltip:
 		'''
 		恢复9999生命值
-		甚至在你拥有耐药性的情况下重复按下快速治疗也可以使用
+		甚至在你拥有[cbuffplr:PotionSickness]的情况下重复按下快速治疗也可以使用
 		'''
 	SalesPitch:
 		'''

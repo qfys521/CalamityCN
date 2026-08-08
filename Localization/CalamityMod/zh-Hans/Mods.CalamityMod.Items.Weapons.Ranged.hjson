@@ -65,6 +65,11 @@ AntiMaterielRifle: {
 		'''
 }
 
+AquashardShotgun: {
+	DisplayName: 碎水霰弹枪
+	Tooltip: 将火枪子弹转化为蓝晶碎片，击中敌人时分裂为追踪碎片
+}
+
 Arbalest: {
 	DisplayName: 劲弩
 	Tooltip:
@@ -73,11 +78,6 @@ Arbalest: {
 		箭矢随着持续发射时间增大体积
 		箭矢体积越大，伤害和击退越高，但扩散范围更大
 		'''
-}
-
-AquashardShotgun: {
-	DisplayName: 碎水霰弹枪
-	Tooltip: 将火枪子弹转化为蓝晶碎片，击中敌人时分裂为追踪碎片
 }
 
 Archerfish: {
@@ -547,6 +547,7 @@ HalleysInferno: {
 		射出一连串高压月耀喷流
 		<right>快速发射星芒并造成[cbuff:CalamityMod/Voidfrost]减益
 		击中敌怪时随攻击准度生成星芒
+		按下 [KEY] 键切换扩大视野模式
 		使用凝胶作为弹药
 		“哈雷彗星比想象中到得早”
 		'''
@@ -819,6 +820,23 @@ NullificationPistol: {
 		'''
 }
 
+OmniGun: {
+	DisplayName: 交变万能枪
+	Tooltip:
+		'''
+		一把依次使用其多种模式的多用途武器
+		第一枪是狙击弹，会随时间增加伤害并总是暴击
+		第二枪是10发标准子弹
+		第三枪是一道毁灭性的近程散射
+		第四枪是一颗危险但强力的手雷，会摧毁包括你在内的一切
+		'''
+	SalesPitch:
+		'''
+		“既然能只带一把枪，干嘛要带四把不同的？我以前总这么问自己！”
+		“有了这小美人儿，连笨手笨脚的蠢蛋都能变得所向披靡——而且只要价格合适，它就是你的了！”
+		'''
+}
+
 OntologicalDespoiler: {
 	DisplayName: 模因根除者
 	Tooltip:
@@ -849,23 +867,6 @@ Onyxia: {
 		'''
 		向敌人倾泻弹雨与玛瑙碎片
 		{$CommonItemTooltip.PercentChanceToSaveAmmo}
-		'''
-}
-
-OmniGun: {
-	DisplayName: 交变万能枪
-	Tooltip:
-		'''
-		一把依次使用其多种模式的多用途武器
-		第一枪是狙击弹，会随时间增加伤害并总是暴击
-		第二枪是10发标准子弹
-		第三枪是一道毁灭性的近程散射
-		第四枪是一颗危险但强力的手雷，会摧毁包括你在内的一切
-		'''
-	SalesPitch:
-		'''
-		“既然能只带一把枪，干嘛要带四把不同的？我以前总这么问自己！”
-		“有了这小美人儿，连笨手笨脚的蠢蛋都能变得所向披靡——而且只要价格合适，它就是你的了！”
 		'''
 }
 

@@ -128,11 +128,7 @@ EditedTooltip: {
 	*/
 	Campfires: 在篝火附近时生命再生增加0.5HP/s
 	HeartLantern: 放置在附近时提供+1HP/s生命再生
-	BottledHoney:
-		'''
-		短时间内提供+1HP/s生命再生
-		受到伤害性减益时会额外提供+1HP/s生命再生
-		'''
+	BottledHoney: 提供15秒[cbuffplr:Honey]增益
 	ShinyStone: 不移动时提供+2HP/s生命再生并加速自然生命再生
 	BandofRegeneration: 提供+1HP/s生命再生
 	CharmofMyths: 提供+1HP/s生命再生并降低治疗药水25%冷却
@@ -183,13 +179,13 @@ EditedTooltip: {
 		'''
 	FrogLeg: 提高{0}%跳跃速度并可自动跳跃
 	// Soaring Insignia
-	EmpressFlightBooster1: 翅膀飞行时间增加33%
+	EmpressFlightBooster1: 提供2.5秒额外飞行时间
 	EmpressFlightBooster2: 移动速度提高7.5%，跳跃速度提高10%，加速度提升为1.25倍
 	GravityGlobe:
 		'''
-		提升32%跳跃速度，并提升下落速度
+		提升40%跳跃速度，并提升下落速度
 		提供一次重力助推跳跃，在重力翻转时重新充能
-		略微提升未装备翅膀时的空中移动速度
+		提升未装备翅膀时的空中移动速度
 		按 {$Key.UP} 反转重力
 		按 {$Key.DOWN} 加速下落
 		'''
@@ -198,6 +194,12 @@ EditedTooltip: {
 		火系减益的伤害增加25%
 		所有攻击造成着火了！减益
 		“再也不会如履薄冰了”
+		'''
+	VolatileGelatin:
+		'''
+		每5个挥发明胶命中后会召唤一只带翼挥发史莱姆，至多6只
+		每只挥发史莱姆提供5%跳跃速度和0.3秒飞行时间
+		飞行时间耗尽后会移除挥发史莱姆的翅膀并将它们与你脱离
 		'''
 	/*
 	Armor
@@ -400,7 +402,7 @@ TavernkeepChat.FullMoon: 想要一些私酿吗？
 TaxCollectorChat: {
 	DoGDefeated: 你说什么吞噬者？资金吞噬者，如果它的工资能是任何东西！
 	PreBrimmy: 那些阿萨福勒上的朋克以为他们可以在我的领地免费住下？我告诉你，在那里处理好我的工作，不然别想领钱。
-	HasSlickCane: 我的天！那根拐杖太装逼了！
+	HasWalkingCane: 我的天！那根拐杖太装逼了！
 	Has100Plat: 呸！好像我没必要因镇上的债务争吵了！
 	Has500Plat: 这些钱你到底是怎么弄来的？！滚开，你根本不需要我了！
 }

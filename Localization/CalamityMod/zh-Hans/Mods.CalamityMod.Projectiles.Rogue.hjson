@@ -159,6 +159,8 @@ Knife.DisplayName: 飞刀
 KylieBoomerang.DisplayName: 回力标
 LanceofDestiny.DisplayName: 神圣投矛
 LeadTomahawkProj.DisplayName: 铅制飞斧
+LemonNadeHoldout.DisplayName: 爆汁柠檬雷
+LemonNadeProjectile.DisplayName: 爆汁柠檬雷
 LeonidCometBig.DisplayName: 狮源陨星
 LeonidCometSmall.DisplayName: 狮源陨星
 LeonidProgenitorBombshell.DisplayName: 狮源流星
@@ -189,6 +191,7 @@ NanoblackLightspeedCarve: {
 	Standard: 光速切割
 }
 
+NanoblackLightspeedCarveSlashVisual.DisplayName: 黑纳米光速切割视觉效果
 NanoblackMain.DisplayName: 黑纳米死神
 NanoblackPiercingStrike.DisplayName: 零点能量打击
 NanoblackStrike.DisplayName: 零点能量打击
@@ -196,6 +199,7 @@ NanoblackTesselation.DisplayName: 黑纳米嵌合体
 NastyChollaBol.DisplayName: 仙人掌尖钉球
 NastyChollaNeedle.DisplayName: 仙人掌刺
 OrichalcumSpikedGemstoneProjectile.DisplayName: 山铜宝石钉
+PaleoShatterExplosion.DisplayName: 远古裂爆
 PalladiumJavelinProjectile.DisplayName: 钯金标枪
 PartisanExplosion.DisplayName: 圣火爆焱
 PenumbraBomb.DisplayName: 半影爆炸
@@ -275,11 +279,12 @@ SludgeSplotchProj2.DisplayName: 污泥斑点
 SmallCoral.DisplayName: 小型珊瑚
 SnapClamProj.DisplayName: 夹贝
 SnapClamStealth.DisplayName: 夹贝
+SpadefishHoldout.DisplayName: 旋转铲子鱼
+SpadefishThrown.DisplayName: 铲子鱼
 SpearofDestinyProjectile.DisplayName: 命运之矛
 SpearofDestinyStealth.DisplayName: 赋能圣矛
 SpearofDestinyStealthExplosion.DisplayName: 神圣爆炸
 SpearofPaleolithProj.DisplayName: 远古投矛
-PaleoShatterExplosion.DisplayName: 远古裂爆
 SpentFuelContainerProjectile.DisplayName: 辐毒废水
 SphereBladed.DisplayName: 致命刃球
 SphereBlue.DisplayName: 蓝色疾冲球
@@ -343,8 +348,3 @@ WrathwingCinder.DisplayName: 狂龙翼火爆炸
 WrathwingFireball.DisplayName: 狂龙火球
 WrathwingSpear.DisplayName: 狂龙翼火
 WulfrumKnifeProj.DisplayName: 钨钢飞刀
-NanoblackLightspeedCarveSlashVisual.DisplayName: 黑纳米光速切割视觉效果
-LemonNadeHoldout.DisplayName: 爆汁柠檬雷
-LemonNadeProjectile.DisplayName: 爆汁柠檬雷
-SpadefishHoldout.DisplayName: 旋转铲子鱼
-SpadefishThrown.DisplayName: 铲子鱼

@@ -918,6 +918,17 @@ Encased: {
 	Description: 增加{0}点防御和{1}%伤害减免，但……
 }
 
+FulfilledContract: {
+	DisplayName: 契约达成
+	Description: 用血和泪赚取的奖励
+	ItemTooltipPlayer:
+		'''
+		降低25%治疗药水冷却
+		自然生命再生强度增加75%
+		所有攻击都会造成血管爆裂减益
+		'''
+}
+
 GraxBoost: {
 	DisplayName: 格拉克斯之助
 	Description: 防御力增加，你的肌肉更加强壮
@@ -1027,7 +1038,7 @@ ReaverRage: {
 		大地之怒
 		增加{0}点防御和{1}%伤害
 		'''
-	ItemTooltipPlayer: 增加10点防御和10%伤害
+	ItemTooltipPlayer: 增加5点防御和10%伤害
 }
 
 SandsWindBuff: {
@@ -1274,9 +1285,9 @@ BabyBloodCrawlerBuff: {
 	Description: 血爬虫宝宝将保护你
 }
 
-BabySlimeGodBuff: {
-	DisplayName: 史莱姆神宝宝
-	Description: 史莱姆之神会保护你
+BabyPaladinBuff: {
+	DisplayName: 小圣卫
+	Description: 枯萎圣卫会保护你
 }
 
 BabyStormlionBuff: {
@@ -1292,6 +1303,11 @@ BelladonnaSpiritBuff: {
 BlackHawkBuff: {
 	DisplayName: 黑鹰战斗机
 	Description: 喷气战斗机会保护你
+}
+
+BlightedSlime: {
+	DisplayName: 枯萎史莱姆
+	Description: 枯萎史莱姆会保护你
 }
 
 BrimseekerBuff: {
@@ -1334,11 +1350,6 @@ CloudElemental: {
 	Description: 雨云元素会保护你
 }
 
-Corroslime: {
-	DisplayName: 腐化史莱姆
-	Description: 腐化史莱姆会保护你
-}
-
 CorvidHarbringerBuff: {
 	DisplayName: 渡鸦
 	Description: 强大的渡鸦会保护你
@@ -1357,11 +1368,6 @@ CosmicViperEngineBuff: {
 CosmilampBuff: {
 	DisplayName: 无尽之灯
 	Description: 无尽之灯会保护你
-}
-
-Crimslime: {
-	DisplayName: 血腥史莱姆
-	Description: 血腥史莱姆会保护你
 }
 
 DaedalusCrystalBuff: {
@@ -1775,7 +1781,7 @@ Daybroken: {
 Shadowflame: {
 	DisplayName: 暗影焰
 	ItemTooltipPlayer: 火系 - 15 DPS
-	ItemTooltipEnemy: 火系 - 30 DPS
+	ItemTooltipEnemy: 火系 - 20 DPS
 }
 
 ForbiddenStealthSummonTagBuff: {
@@ -1807,14 +1813,16 @@ SmashedEvil: {
 	Description: 增加伤害，移动速度和生命再生
 	ItemTooltipEnemy:
 		'''
-		全类型 - 20 DPS
+		全类型 - 80 DPS
+		无视敌怪弱性与抗性
 		增加5点所受伤害
 		'''
 	ItemTooltipPlayer:
 		'''
-		再生恢复到满强度的速度增加200%
-		增加10%伤害
-		增加20%移动速度
+		自然生命再生更强且恢复更快
+		增加20%伤害
+		增加加速度和减速度
+		增加5mph最大速度
 		'''
 }
 

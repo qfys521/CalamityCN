@@ -226,11 +226,11 @@ ProfanedCore: {
 	DisplayName: 亵渎晶核
 	Tooltip:
 		'''
-		在神圣之地或地狱使用以召唤亵渎天神
-		当亵渎天神生命值较高时再次使用以释放她的完美怒火
+		在神圣之地或地狱使用以召唤亵渎天神[ENRAGE]
 		{$Common.NotConsumable}
 		“她的守卫的心脏，她将会用污亵的烈焰焚尽现在正掌控它的人。”
 		'''
+	EnrageText: "[c/64c8fa:这个世界的本质会释放她的完美怒火，小心！]"
 }
 
 ProfanedShard: {

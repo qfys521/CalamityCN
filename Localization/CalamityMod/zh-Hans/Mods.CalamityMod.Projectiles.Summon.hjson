@@ -35,11 +35,10 @@ BlackDragonHead.DisplayName: 天界黑龙（头）
 BlackDragonTail.DisplayName: 天界黑龙（尾巴）
 BlackHawkBullet.DisplayName: 黑鹰弹
 BlackHawkSummon.DisplayName: 黑鹰
+BlightedSlimeMinion.DisplayName: 枯萎史莱姆
 BloodBreath.DisplayName: 血龙之焰
 BloodRain.DisplayName: 血雨
 BloodSpit.DisplayName: 血痰
-BoneMatter.DisplayName: 骨基质
-BoneMatter2.DisplayName: 骨基质
 BrimseekerAuraBall.DisplayName: 探索者
 BrimstoneDartMinion.DisplayName: 硫火
 BrimstoneDartSummon.DisplayName: 硫火镖
@@ -47,7 +46,7 @@ BrimstoneElementalMinion.DisplayName: 硫磺火元素
 BrimstoneExplosionMinion.DisplayName: 硫火迸射
 BrimstoneFireballMinion.DisplayName: 硫磺火球
 BrimstoneFireSummon.DisplayName: 硫磺火
-BrimstoneLaserSummon.DisplayName: 硫火激光
+BrimstoneLaserSummon.DisplayName: 恂戒小火球
 BrittleStarMinion.DisplayName: 蛇尾海星
 CalamarisLamentMinion.DisplayName: 乌贼
 CalamarisLamentProjectile.DisplayName: 乌贼墨水
@@ -64,8 +63,6 @@ CinderBlossom.DisplayName: 余烬之花
 CloudElementalMinion.DisplayName: 雨云元素
 CnidarianJellyfishOnTheString.DisplayName: 水母
 CnidarianSpark.DisplayName: 水母火花
-CorroslimeMinion.DisplayName: 腐化史莱姆
-CorruptionSlimeGodMinion.DisplayName: 史莱姆之神
 CosmicBlast.DisplayName: 宙能爆炸波
 CosmicBlastBig.DisplayName: 宙能爆炸波
 CosmicEnergySpiral.DisplayName: 宇宙能量
@@ -76,8 +73,6 @@ CosmicViperSplittingRocket.DisplayName: 子母火箭
 CosmicViperSummon.DisplayName: 寰宇毒蝰
 CosmilampBeam.DisplayName: 宇宙光束
 CosmilampMinion.DisplayName: 无限之灯
-CrimslimeMinion.DisplayName: 血腥史莱姆
-CrimsonSlimeGodMinion.DisplayName: 史莱姆之神
 DaedalusCrystal.DisplayName: 代达罗斯水晶
 DaedalusCrystalShot.DisplayName: 水晶弹
 DaedalusGolem.DisplayName: 代达罗斯守卫
@@ -284,6 +279,7 @@ SquirrelSquireAcorn.DisplayName: 松鼠橡子
 SquirrelSquireMinion.DisplayName: 松鼠护卫
 Starforge.DisplayName: 塑星者
 StarforgeBlast.DisplayName: 塑星爆炸
+StatigelBlightedSlime.DisplayName: 枯萎圣卫
 StellarTorusBeam.DisplayName: 星环激光
 StellarTorusSummon.DisplayName: 星环召唤物
 StormjawBaby.DisplayName: 风暴蚁狮

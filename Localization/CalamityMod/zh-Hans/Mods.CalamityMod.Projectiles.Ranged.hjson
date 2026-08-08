@@ -1,3 +1,4 @@
+AbyssalFire.DisplayName: 深渊火焰
 AcidRocket.DisplayName: 酸性导弹
 AdamAcceleratorBeam.DisplayName: 精金粒子光束
 AMR2.DisplayName: 反器材弹雨
@@ -19,7 +20,9 @@ AuralisBullet.DisplayName: 极光弹
 AuricBullet.DisplayName: 金源弹
 AuroraFire.DisplayName: 烈焰极光
 BallistaGreatArrow.DisplayName: 破城巨箭
+BallistaShard.DisplayName: 破城碎片
 BarinadeArrow.DisplayName: 利鳍之箭
+BlahajBlast.DisplayName: 水流爆炸
 BlightFlames.DisplayName: 枯萎之火
 BlissfulBombardierSplitProjectile.DisplayName: 亵渎迷你火箭
 BloodBoilerFire.DisplayName: 沸腾之血
@@ -130,6 +133,7 @@ MagnomalyExplosion.DisplayName: 磁极爆炸
 MagnomalyRocket.DisplayName: 磁极核弹
 MarksmanShot.DisplayName: 神射手射击
 MechanicalBarracuda.DisplayName: 梭鱼
+MegalodonRocket.DisplayName: 巨舰鲨火箭
 MegalodonShot.DisplayName: 巨舰喷流
 MeowCreature.DisplayName: 喵喵喵:3
 MeowFire.DisplayName: 彩虹喵火焰
@@ -148,6 +152,9 @@ NovaShot.DisplayName: 新星矢
 NukeOfBliss.DisplayName: 亵渎核弹
 NullFlash.DisplayName: 空无闪
 NullShot.DisplayName: 空弹
+OmniSniperShot.DisplayName: 万能枪狙击弹
+OmniGrenade.DisplayName: 万能枪榴弹
+OmniShotgunShot.DisplayName: 万能枪霰弹
 OntologicalDespoilerBeam.DisplayName: 空无湮灭射线束
 OntoligicalDespoilerBurst.DisplayName: 阻断能量爆炸
 OntologicalDespoilerGrenade.DisplayName: 阻断能量球
@@ -259,14 +266,8 @@ VanquisherArrowMain.DisplayName: 征戮箭
 VanquisherArrowProj.DisplayName: 征戮箭
 VeriumBoltProj.DisplayName: 钫束
 VernalBolt.DisplayName: 煦春光束
+VoidBlast.DisplayName: 虚空爆
 WaterSpout.DisplayName: 激流
 WildfireBloomFire.DisplayName: 野火
 WildfireBloomFlare.DisplayName: 野火爆焰
 WulfrumScrapBullet.DisplayName: 高速废料
-AbyssalFire.DisplayName: 深渊火焰
-BlahajBlast.DisplayName: 水流爆炸
-MegalodonRocket.DisplayName: 巨舰鲨火箭
-VoidBlast.DisplayName: 虚空爆
-OmniSniperShot.DisplayName: 万能枪狙击弹
-OmniGrenade.DisplayName: 万能枪榴弹
-OmniShotgunShot.DisplayName: 万能枪霰弹

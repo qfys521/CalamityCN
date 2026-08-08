@@ -58,11 +58,6 @@ Bloodstone: {
 	Tooltip: ""
 }
 
-BloodstoneCore: {
-	DisplayName: 血石核心
-	Tooltip: ""
-}
-
 CoreofCalamity: {
 	DisplayName: 灾劫核心
 	Tooltip: ""
@@ -218,7 +213,7 @@ PlagueCellCanister: {
 }
 
 PlasmaDriveCore: {
-	DisplayName: 等离子驱动核心原型
+	DisplayName: 等离子驱动原型
 	Tooltip: 尽管这玩意在仓库里吃了很多灰，它还能正常运转
 }
 

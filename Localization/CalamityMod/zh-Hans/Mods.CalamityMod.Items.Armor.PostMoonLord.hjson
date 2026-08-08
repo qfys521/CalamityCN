@@ -249,11 +249,7 @@ BloodflareHeadRogue: {
 		{$Common.RogueStealth}
 		{$BloodflareHeadRogue.SetBonusEffect@1}
 		'''
-	SetBonusEffect:
-		'''
-		高于{1}%生命值时增加{0}点防御
-		{$BloodflareBodyArmor.CommonSetBonus}
-		'''
+	SetBonusEffect: "{$BloodflareBodyArmor.CommonSetBonus}"
 }
 
 BloodflareHeadSummon: {
@@ -285,13 +281,17 @@ DemonshadeBreastplate: {
 		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
 		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
 		{$CommonItemTooltip.PercentChanceToSaveAmmo@3}
-		站立不动时吸收暗影以获取指数加速的生命再生
+		站立不动时获取指数加速的生命再生
 		'''
 }
 
 DemonshadeGreaves: {
 	DisplayName: 魔影护胫
-	Tooltip: 魔影极速
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed}和加速度提高{1}%
+		[c/aaaaaa:在物品栏中按住Shift<right>切换提高加速度的效果]
+		'''
 }
 
 DemonshadeHelm: {
@@ -705,7 +705,6 @@ TarragonHeadRogue: {
 		'''
 		使用盗贼武器暴击敌人{0}次时你会获得{1}秒无敌时间
 		此效果有{2}秒冷却
-		每受到一个减益影响，你提升{3}%盗贼伤害
 		{$TarragonBreastplate.CommonSetBonus}
 		'''
 }

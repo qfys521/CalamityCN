@@ -284,6 +284,7 @@ SupremeCalamitas.DisplayName: 至尊女巫，灾厄
 SupremePermafrost: 至尊大法师，永冻
 SupremeCataclysm.DisplayName: 至尊灾祸
 SupremeCatastrophe.DisplayName: 至尊灾难
+VolatileSlime.DisplayName: 挥发史莱姆
 Yharon.DisplayName: 重生之龙，犽戎
 YharonPhase2: 璀璨华焰，犽戎
 AndroombaFriendly.DisplayName: 仙女座扫除机老友
@@ -336,7 +337,7 @@ Bandit: {
 	Census.SpawnCondition: 骷髅王被击败后，玩家物品栏里有1{$ItemName.PlatinumCoin} [i:PlatinumCoin]
 
 	Name: {
-		Laura: Laura
+		Taylor: Taylor
 		Mie: Mie
 		Bonnie: Bonnie
 		Sarah: Sarah
@@ -373,7 +374,7 @@ Bandit: {
 		BrimstoneWitch: 嘿，嘿，灾厄真的搬进来和我们一起住了吗？为什么？为什么？？？
 		Merchant: 别告诉{0}我把他的一些货物换成天使雕像了。
 		NurseArmsDealer: 别告诉{0}其实{1}身上那么多伤口我也有责任。
-		NamedLaura: 地图最棒的一点是，如果天上有什么东西掉下来能够第一时间找到。
+		NamedTaylor: 地图最棒的一点是，如果天上有什么东西掉下来能够第一时间找到。
 		NamedPenelope: 想象一下，要是多几只手那得能扔的多快啊！
 		NamedValerie: 你没钱的话，给点吃的也行。
 		NamedRowan: 通常来说动物只是食物或者活靶子，但龙是个例外。
@@ -598,6 +599,7 @@ TownPiggy: {
 		Techno: Techno
 		JohnPork: John Pork
 		Piglet: 小猪皮杰
+		Poogie: Poogie
 	}
 
 	Chat: {

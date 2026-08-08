@@ -5,3 +5,4 @@ StealthDamageClass.DisplayName: 潜伏伤害
 TrueMeleeDamageClass.DisplayName: 真近战伤害
 TrueMeleeNoSpeedDamageClass.DisplayName: 真近战伤害
 VoidTagDmgType.DisplayName: 虚空标记伤害
+AllClassDamageClass.DisplayName: 全职业伤害

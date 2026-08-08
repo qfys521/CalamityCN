@@ -105,6 +105,7 @@ EmpyreanKnife.DisplayName: 苍穹飞刀
 EntropicFlechette.DisplayName: 熵弹
 EonBolt.DisplayName: 永恒之雷
 EssenceScythe.DisplayName: 精元镰刀
+EvilSmasherProjectile.DisplayName: 邪恶粉碎者
 ExaltedOathbladeThrownBlade.DisplayName: 崇高之掷刃
 MawOfInfinityHoldout.DisplayName: 永噬之颚
 MawOfInfinityJaws.DisplayName: 噬神者
@@ -186,6 +187,8 @@ NeptuneOrb.DisplayName: 渊海三叉戟
 NeptunesBountyProjectile.DisplayName: 海神之馈赠
 NeptunesBountySplitProjectile.DisplayName: 海神之馈赠喷流
 OathswordFlame.DisplayName: 禁忌火焰
+OblivionFire.DisplayName: 遗殇之火
+OblivionBolt.DisplayName: 遗殇之矢
 Orbacle.DisplayName: 圣金源光球
 OrderbringerBeam.DisplayName: 携序光束
 OrderbringerWaveProj.DisplayName: 携序剑气
@@ -311,4 +314,3 @@ WulfrumScrew.DisplayName: 钨钢螺丝钉
 WulfrumScrewdriverProj.DisplayName: 钨钢螺丝刀
 YinYoDark.DisplayName: 黑暗碎块
 YinYoLight.DisplayName: 光明碎块
-EvilSmasherProjectile.DisplayName: 邪恶粉碎者

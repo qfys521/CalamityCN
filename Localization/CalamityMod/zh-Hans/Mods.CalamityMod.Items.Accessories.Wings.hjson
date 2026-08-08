@@ -128,6 +128,16 @@ TarragonWings: {
 		'''
 }
 
+TiredTail: {
+	DisplayName: 怠惰之尾
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressDownToHover}
+		{$CommonItemTooltip.PressUpToBooster}
+		'''
+}
+
 VoidStriders: {
 	DisplayName: 虚空翼靴
 	TreadsName: 虚空步靴

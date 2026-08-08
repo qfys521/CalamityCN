@@ -85,6 +85,11 @@ BlackHawkRemote: {
 		'''
 }
 
+BlightedSlimeStaff: {
+	DisplayName: 枯萎史莱姆法杖
+	Tooltip: 召唤枯萎史莱姆为你而战
+}
+
 BorealisBomber: {
 	DisplayName: 极光爆破
 	Tooltip:
@@ -147,10 +152,10 @@ CausticStaff: {
 		'''
 	HoldShiftTooltip:
 		'''
-		总会造成[cbuff:OnFire3]减益
+		总会造成[cbuff:OnFire3]和[cbuff:Venom]减益
 		召唤两条龙时会造成[cbuff:CursedInferno]减益
-		召唤三条龙时会造成[cbuff:Venom]减益
-		召唤四条龙时会造成[cbuff:Ichor]和[cbuff:CalamityMod/MarkedforDeath]减益
+		召唤三条龙时会造成[cbuff:Ichor]减益
+		召唤四条龙时会造成[cbuff:CalamityMod/MarkedforDeath]减益
 		'''
 }
 
@@ -191,11 +196,6 @@ Cnidarian: {
 		'''
 }
 
-CorroslimeStaff: {
-	DisplayName: 腐化史莱姆召唤杖
-	Tooltip: 召唤腐化史莱姆为你而战
-}
-
 CorvidHarbringerStaff: {
 	DisplayName: 灭兆渡鸦杖
 	Tooltip:
@@ -231,11 +231,6 @@ CosmicViperEngine: {
 Cosmilamp: {
 	DisplayName: 无限之灯
 	Tooltip: 在你的头顶召唤一盏宇宙灯为你而战
-}
-
-CrimslimeStaff: {
-	DisplayName: 血腥史莱姆召唤杖
-	Tooltip: 召唤血腥史莱姆为你而战
 }
 
 CryogenicStaff: {
@@ -496,7 +491,7 @@ IgneousExaltation: {
 		召唤围绕你旋转的刀锋
 		当你仆从栏满时，再次<left>使刀锋冲向光标位置
 		此能力有两秒冷却，需要手持此武器才会计时
-		在物品栏中按住Shift<right>以改变其旋转方向
+		手持时按下 [KEY] 键以改变其旋转方向
 		'''
 }
 
@@ -736,11 +731,7 @@ SquirrelSquireStaff: {
 
 StaffOfNecrosteocytes: {
 	DisplayName: 死灵骨髓杖
-	Tooltip:
-		'''
-		召唤小骷髅为你而战
-		小骷髅在移动时会留下骨细胞
-		'''
+	Tooltip: 召唤小骷髅为你而战
 }
 
 StarspawnHelixStaff: {
@@ -856,7 +847,7 @@ ViridVanguard: {
 		所有武器都会造成[cbuff:CalamityMod/SagePoison]减益，武器召唤的越多，减益越强
 		当所有仆从栏满时，再次<left>会朝你的光标旋转一阵斩击
 		此能力有五秒冷却，需要手持此武器才会计时
-		在物品栏中按住Shift<right>以改变其旋转方向
+		手持时按下 [KEY] 键以改变其旋转方向
 		'''
 }
 
@@ -864,7 +855,8 @@ VoidConcentrationStaff: {
 	DisplayName: 幽冥统御
 	Tooltip:
 		'''
-		用暗能量包围你，使受到所有攻击的伤害降低15%
+		召唤一片无尽的黑暗，用暗能量包围你
+		当暗能量围绕你时，你受到所有攻击的伤害降低15%
 		<right>将暗能量浓缩向一个目标，让你的仆从聚焦它并产生追踪光束
 		当被聚焦的目标受到任何来源的伤害后，它们会被额外的暗能量攻击
 		如果攻击来自仆从或哨兵，这些暗能量的强度会翻倍
@@ -880,8 +872,10 @@ VoidEaterMarionette: {
 		重复召唤会增加吞噬者的长度和威力
 		吞噬者会使用[ceffect/dog:噬神者]，[ceffect/dog:焚灭虔信之火]和[ceffect/dog:超宇宙狂涡]攻击
 		可以与掉落物品互动
-		召唤吞噬者后在物品栏中按住Shift<right>以优先拾取掉落物品
+		召唤吞噬者后手持时按下 [KEY] 键以优先拾取掉落物品
 		'''
+	FetchStart: 捡来！
+	FetchEnd: 到手！
 }
 
 WarloksMoonFist: {
