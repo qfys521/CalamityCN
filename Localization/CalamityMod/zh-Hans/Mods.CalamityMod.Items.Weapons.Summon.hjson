@@ -874,8 +874,8 @@ VoidEaterMarionette: {
 		可以与掉落物品互动
 		召唤吞噬者后手持时按下 [KEY] 键以优先拾取掉落物品
 		'''
-	FetchStart: 捡来！
-	FetchEnd: 到手！
+	FetchStart: 捡物品！
+	FetchEnd: 捡够了！
 }
 
 WarloksMoonFist: {

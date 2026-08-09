@@ -129,7 +129,7 @@ TarragonWings: {
 }
 
 TiredTail: {
-	DisplayName: 怠惰之尾
+	DisplayName: "困倦之尾      "
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}

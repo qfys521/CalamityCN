@@ -6,7 +6,7 @@ CalamityClientConfig: {
 		Graphics: 画面改动
 		UI: UI改动
 		MeterPositions: 属性条位置
-		AudioToggles: 音频切换
+		AudioToggles: 音频选项
 	}
 
 	AbyssLayer3Alt: {
@@ -45,8 +45,8 @@ CalamityClientConfig: {
 		Label: "[i:BrainOfConfusion] 移除可能引人不适的图像"
 		Tooltip:
 			'''
-			替换一些Boss贴图以移除可能引人不适，让人触发恐惧症的图像。
-			如果你对身体恐怖不舒服或拥有密集恐惧症时强烈推荐开启。
+			替换一些Boss贴图，以移除可能引人不适、触发恐惧症的图像。
+			强烈建议对身体恐怖感到不适或有密集恐惧症的人士开启。
 			'''
 	}
 
@@ -188,11 +188,11 @@ CalamityClientConfig: {
 	}
 
 	MisophoniaSupport: {
-		Label: "[i:Megaphone] 禁用可能触发的音频"
+		Label: "[i:Megaphone] 禁用可能引发不适的音频"
 		Tooltip:
 			'''
-			禁用或修改多个重复和可能令人痛苦的音效。
-			强烈推荐拥有恐音症的玩家开启。
+			禁用或修改多个反复播放和可能令人痛苦的音效。
+			强烈建议恐音人士开启。
 			'''
 	}
 
@@ -213,7 +213,7 @@ CalamityClientConfig: {
 			'''
 			降低或禁用某些视觉效果的亮度和/或炫目程度。
 			也会禁用所有屏幕震动效果。
-			强烈建议光敏人士使用此模式。
+			强烈建议光敏人士开启。
 			'''
 	}
 
