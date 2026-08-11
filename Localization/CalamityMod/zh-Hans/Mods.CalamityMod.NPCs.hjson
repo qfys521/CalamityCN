@@ -607,6 +607,8 @@ TownPiggy: {
 		1: （尖叫）……
 		2: （鼻息声）！
 	}
+
+	TownNPCMood.NoHome: 我讨厌无家可归。
 }
 
 HorribleHog.DisplayName: 骇人猪猪

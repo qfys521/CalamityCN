@@ -2,8 +2,8 @@ This is a Chinese-translation Mod for Calamity Mod.
 
 [c/f06633:=介绍=]
 本Mod是由Kcovin制作，灾厄维基汉化组出品的灾厄汉化补丁
-灾厄本体内容99%已汉化，目前适配灾厄版本2.2.2
-[i:3457] [包含CalamityModMusic内容汉化]
+灾厄本体内容99%已汉化，目前适配灾厄版本2.2.2及tModLoader 1.4.5
+[i:3457] [包含可选的CalamityModMusic内容汉化，未安装音乐包也可加载]
 - - - - - - - - - - - - - - - -
 
 若在游玩灾厄时遇到不解，可以在创意工坊进入我们建立的灾厄中文维基寻求解答

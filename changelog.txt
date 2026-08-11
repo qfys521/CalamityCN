@@ -1,3 +1,5 @@
 #ChangeLog
 ===============
+-适配tModLoader 1.4.5；CalamityModMusic与CalamityHunt改为可选
+-补充1.4.5新增的城镇猪猪心情文本
 -更新到灾厄v2.2.2，活跃开发中
